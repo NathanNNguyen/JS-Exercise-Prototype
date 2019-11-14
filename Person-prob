@@ -1,0 +1,19 @@
+eat(`apple`)
+if edible <=> if apple 
+this.stomach.push(edible) <=> this.stomach.push(apple) => this.stomach = [apple]
+if this stomach.length == 10  <=> 1 == 10 => false
+
+eat(`pineapple`)
+if edible <=> if pineapple 
+this.stomach.push(edible) <=> this.stomach.push(pineapple) => this.stomach = [apple, pineapple]
+if this stomach.length == 10  <=> 2 == 10 => false
+
+eat(`berry`)
+if edible <=> if berry 
+this.stomach.push(edible) <=> this.stomach.push(berry) => this.stomach = [apple, ...., berry]
+if this stomach.length == 10  <=> 10 == 10 => true
+
+eat(`peach`)
+if edible <=> if peach 
+this.stomach.push(edible) <=> this.stomach.push(peach) => this.stomach = [apple, ...., peach]
+if this stomach.length == 10  <=> 11 == 10 => false
